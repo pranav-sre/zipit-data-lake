@@ -124,7 +124,7 @@
 ## Quick Start
 
 ```bash
-git clone https://github.com/pranavtiwari0813/zipit-data-lake
+git clone https://github.com/pranav-sre/zipit-data-lake
 cd zipit-data-lake
 pip install -r requirements.txt
 
