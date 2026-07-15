@@ -7,6 +7,10 @@
 ![AWS](https://img.shields.io/badge/AWS-S3%20%7C%20Glue%20%7C%20Athena%20%7C%20CloudWatch-orange?logo=amazon-aws)
 ![Python](https://img.shields.io/badge/Python-boto3%20%7C%20pandas%20%7C%20pyarrow-blue?logo=python)
 ![IaC](https://img.shields.io/badge/IaC-CloudFormation-green?logo=amazon-aws)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Architecture](https://img.shields.io/badge/Architecture-Medallion-blue)
+![Free Tier](https://img.shields.io/badge/Cost-AWS%20Free%20Tier-orange)
 
 ---
 
