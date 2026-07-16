@@ -14,19 +14,17 @@
 
 ---
 
-## 🗺️ System Architecture:
+## 🗺️ System Architecture :
 
 ![ZIPIT AWS Architecture](zipit_aws_architecture.png)
 
 ---
----
 
-## 🌪️𝗧𝗵𝗲 𝗣𝗿𝗼𝗯𝗹𝗲𝗺 𝗔𝗱𝗱𝗿𝗲𝘀𝘀𝗲𝗱:
+## 🌪️ 𝗧𝗵𝗲 𝗣𝗿𝗼𝗯𝗹𝗲𝗺 𝗔𝗱𝗱𝗿𝗲𝘀𝘀𝗲𝗱 :
 Food delivery platforms like Zomato and Swiggy generate millions of data points daily — orders, payments, rider trips, cancellations. Without a structured storage and processing system, this data sits in silos, unqueryable and useless for business decisions.
 
 The challenge: How do you design a system that ingests raw, messy data → cleans it → organizes it → and makes it instantly queryable for business intelligence, at scale, on cloud?
 
----
 ---
 
 ## 🌊 How Data Flows :
@@ -45,7 +43,7 @@ The challenge: How do you design a system that ingests raw, messy data → clean
 
 ---
 
-## 🏅 Data Lake Zones (Medallion Architecture) -
+## 🏅 Data Lake Zones (Medallion Architecture) :
 
 | Zone | S3 Folder | What is Stored |
 |------|-----------|---------------|
@@ -67,7 +65,7 @@ The challenge: How do you design a system that ingests raw, messy data → clean
 
 ---
 
-## 🔍 8 Business SQL Queries (Athena) -
+## 🔍 8 Business SQL Queries (Athena) :
 
 | Query | Business Question Answered |
 |-------|---------------------------|
@@ -82,7 +80,7 @@ The challenge: How do you design a system that ingests raw, messy data → clean
 
 ---
 
-## 🛠️ Tech Stack:
+## 🛠️ Tech Stack :
 
 | Layer | Service | Purpose |
 |-------|---------|---------|
@@ -97,7 +95,7 @@ The challenge: How do you design a system that ingests raw, messy data → clean
 
 ---
 
-## Key Results :
+## 📊 Key Results :
 
 | Metric | Value |
 |--------|-------|
@@ -110,7 +108,7 @@ The challenge: How do you design a system that ingests raw, messy data → clean
 
 ---
 
-## Security :
+## 🔒 Security :
 
 | Feature | Implementation |
 |---------|---------------|
@@ -123,7 +121,7 @@ The challenge: How do you design a system that ingests raw, messy data → clean
 
 ---
 
-## Project Structure :
+## 📁 Project Structure :
 
 | Folder / File | Purpose |
 |---------------|---------|
@@ -140,7 +138,7 @@ The challenge: How do you design a system that ingests raw, messy data → clean
 
 ---
 
-## Quick Start
+## ⚡ Quick Start :
 
 ```bash
 git clone https://github.com/pranav-sre/zipit-data-lake
@@ -169,7 +167,7 @@ python ingestion/live_producer.py
 
 ---
 
-## 🚀 Future Improvements
+## 🛸 Future Improvements :
 
 - [ ] Migrate IaC from CloudFormation to **Terraform** for multi-cloud compatibility
 - [ ] Add **GitHub Actions CI/CD pipeline** for automated deployment
