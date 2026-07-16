@@ -19,12 +19,14 @@
 ![ZIPIT AWS Architecture](zipit_aws_architecture.png)
 
 ---
+---
 
 ## #𝗧𝗵𝗲 𝗣𝗿𝗼𝗯𝗹𝗲𝗺 𝗔𝗱𝗱𝗿𝗲𝘀𝘀𝗲𝗱:
 Food delivery platforms like Zomato and Swiggy generate millions of data points daily — orders, payments, rider trips, cancellations. Without a structured storage and processing system, this data sits in silos, unqueryable and useless for business decisions.
 
 The challenge: How do you design a system that ingests raw, messy data → cleans it → organizes it → and makes it instantly queryable for business intelligence, at scale, on cloud?
 
+---
 ---
 
 ## How Data Flows :
@@ -155,8 +157,6 @@ python ingestion/live_producer.py
 
 ---
 
----
-
 ## 💡 What I Learned
 
 | Lesson | Detail |
@@ -166,6 +166,18 @@ python ingestion/live_producer.py
 | Medallion Architecture solves real problems | The Bronze → Silver → Gold pattern exists because raw data is always messy — same pattern used at Netflix, Uber, Amazon |
 | Monitoring is non-negotiable | You don't know your system is broken until CloudWatch tells you — built 4 alarms before anything failed |
 | Cost optimization is a real skill | Lifecycle policies reduced storage costs 80% — this is what SRE engineers do daily in production |
+
+---
+
+## 🚀 Future Improvements
+
+- [ ] Migrate IaC from CloudFormation to **Terraform** for multi-cloud compatibility
+- [ ] Add **GitHub Actions CI/CD pipeline** for automated deployment
+- [ ] Deploy ETL pipeline on **Kubernetes** with auto-scaling
+- [ ] Integrate **Grafana dashboard** for richer visualization beyond CloudWatch
+- [ ] Build an **AI incident assistant** using LangChain that reads CloudWatch alarms and suggests root cause using LLM API
+- [ ] Add **data quality checks** using Great Expectations before Silver zone processing
+- [ ] Implement **real Zomato/Swiggy API integration** instead of simulated data
 
 ---
 
