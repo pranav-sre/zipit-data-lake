@@ -14,13 +14,20 @@
 
 ---
 
-## Architecture
+## #Architecture :
 
 ![ZIPIT AWS Architecture](zipit_aws_architecture.png)
 
 ---
 
-## How Data Flows
+## #𝗧𝗵𝗲 𝗣𝗿𝗼𝗯𝗹𝗲𝗺 𝗔𝗱𝗱𝗿𝗲𝘀𝘀𝗲𝗱:
+Food delivery platforms like Zomato and Swiggy generate millions of data points daily — orders, payments, rider trips, cancellations. Without a structured storage and processing system, this data sits in silos, unqueryable and useless for business decisions.
+
+The challenge: How do you design a system that ingests raw, messy data → cleans it → organizes it → and makes it instantly queryable for business intelligence, at scale, on cloud?
+
+---
+
+## How Data Flows :
 
 **ZIPIT App** → **Python boto3** → **Amazon S3** → **AWS Glue** → **Amazon Athena** → **Business Insights**
 
@@ -36,7 +43,7 @@
 
 ---
 
-## Data Lake Zones (Medallion Architecture)
+## Data Lake Zones (Medallion Architecture) -
 
 | Zone | S3 Folder | What is Stored |
 |------|-----------|---------------|
@@ -46,7 +53,7 @@
 
 ---
 
-## ZIPIT Datasets
+## ZIPIT Datasets :
 
 | Table | Records | Key Columns |
 |-------|---------|-------------|
@@ -58,7 +65,7 @@
 
 ---
 
-## 8 Business SQL Queries (Athena)
+## 8 Business SQL Queries (Athena) -
 
 | Query | Business Question Answered |
 |-------|---------------------------|
@@ -73,7 +80,7 @@
 
 ---
 
-## Tech Stack
+## Tech Stack :
 
 | Layer | Service | Purpose |
 |-------|---------|---------|
@@ -88,7 +95,7 @@
 
 ---
 
-## Key Results
+## Key Results :
 
 | Metric | Value |
 |--------|-------|
@@ -101,7 +108,7 @@
 
 ---
 
-## Security
+## Security :
 
 | Feature | Implementation |
 |---------|---------------|
@@ -114,7 +121,7 @@
 
 ---
 
-## Project Structure
+## Project Structure :
 
 | Folder / File | Purpose |
 |---------------|---------|
