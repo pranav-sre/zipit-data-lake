@@ -155,4 +155,18 @@ python ingestion/live_producer.py
 
 ---
 
+---
+
+## 💡 What I Learned
+
+| Lesson | Detail |
+|---|---|
+| Cloud architecture is about WHY | Not just which service to use — but why encrypt this, why restrict that access, why this storage tier over that one |
+| IaC changes everything | Deploying manually vs CloudFormation is the difference between a one-time setup and a repeatable system |
+| Medallion Architecture solves real problems | The Bronze → Silver → Gold pattern exists because raw data is always messy — same pattern used at Netflix, Uber, Amazon |
+| Monitoring is non-negotiable | You don't know your system is broken until CloudWatch tells you — built 4 alarms before anything failed |
+| Cost optimization is a real skill | Lifecycle policies reduced storage costs 80% — this is what SRE engineers do daily in production |
+
+---
+
 Built by **Pranav Tiwari** | GLA University, Mathura | 2026
