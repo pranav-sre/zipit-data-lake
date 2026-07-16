@@ -1,9 +1,5 @@
 # ZIPIT — Food Delivery Data Lake
 
-## Architecture
-
-![ZIPIT AWS Architecture](zipit_aws_architecture.png)
-
 > Production-grade AWS Data Lake for food delivery analytics.
 > Processes **5,000+ orders** across **7 Indian cities** using
 > Python, boto3, AWS Glue, Athena, CloudWatch, and CloudFormation.
@@ -15,6 +11,12 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Architecture](https://img.shields.io/badge/Architecture-Medallion-blue)
 ![Free Tier](https://img.shields.io/badge/Cost-AWS%20Free%20Tier-orange)
+
+---
+
+## Architecture
+
+![ZIPIT AWS Architecture](zipit_aws_architecture.png)
 
 ---
 
